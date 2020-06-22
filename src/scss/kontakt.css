@@ -1,0 +1,120 @@
+.content-contact {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .content-contact {
+    -webkit-transform: none;
+            transform: none;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.hero-contact {
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-box-heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .text-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.form {
+  text-align: center;
+}
+
+.form-label {
+  display: block;
+}
+
+.form-input, .form-text {
+  width: 70%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ececec;
+  padding-left: 12px;
+  resize: none;
+  background-color: #bebebe;
+}
+
+.column {
+  background-color: #dbd6d6;
+  width: 50%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.first-column {
+  padding-top: 30px;
+}
+
+.second-column {
+  padding-top: 30px;
+}
+
+.contact-list {
+  text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .contact-list {
+    margin-bottom: 15px;
+  }
+}
+
+.btn-submit {
+  border: none;
+  background-color: #bebebe;
+  border: 1px solid #ececec;
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.contact-item {
+  margin: 0 0 7px 0;
+}
+/*# sourceMappingURL=kontakt.css.map */
