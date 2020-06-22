@@ -579,3 +579,10 @@ table {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {}
