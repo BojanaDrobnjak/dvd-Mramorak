@@ -653,3 +653,32 @@ table {
 .contact-title-container {
   padding-top: 139px;
 }
+
+@media only screen and (max-width: 601px) {
+  .hero {
+    height: 840px;
+  }
+  .hero-content {
+    -webkit-transform: none;
+    transform: none;
+  }
+  .swiper-wrapper {
+    height: 932px !important;
+  }
+  .index-content {
+    width: 600px;
+  }
+  .hero-paragraph {
+    padding-top: 35px;
+    margin-bottom: 37px;
+    font-size: 20px;
+  }
+  .hero-slider{
+    width: 530px;
+  }
+}
+
+#fire {
+  width: 100vw;
+  height:200px;
+}
