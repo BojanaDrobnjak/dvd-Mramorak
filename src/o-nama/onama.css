@@ -1,11 +1,5 @@
 .about-content {
   text-align: center;
-  position: relative;
-  left: 50%;
-  top: 10%;
-  margin-bottom: 25px;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 .about-box {
